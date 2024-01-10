@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A75EEC5F2B4DF54C007DC9A2 /* MotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75EEC5E2B4DF54C007DC9A2 /* MotionViewController.swift */; };
 		A7CF82D62B4DAB3D002DC334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF82D52B4DAB3D002DC334 /* AppDelegate.swift */; };
 		A7CF82D82B4DAB3D002DC334 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF82D72B4DAB3D002DC334 /* SceneDelegate.swift */; };
-		A7CF82DA2B4DAB3D002DC334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF82D92B4DAB3D002DC334 /* ViewController.swift */; };
 		A7CF82DF2B4DAB3E002DC334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CF82DE2B4DAB3E002DC334 /* Assets.xcassets */; };
 		A7CF82E22B4DAB3E002DC334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CF82E02B4DAB3E002DC334 /* LaunchScreen.storyboard */; };
 		A7CF82EA2B4DAB96002DC334 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF82E92B4DAB96002DC334 /* WebViewController.swift */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A75EEC5E2B4DF54C007DC9A2 /* MotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionViewController.swift; sourceTree = "<group>"; };
 		A7CF82D22B4DAB3D002DC334 /* EighthWallWebViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EighthWallWebViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CF82D52B4DAB3D002DC334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7CF82D72B4DAB3D002DC334 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7CF82D92B4DAB3D002DC334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7CF82DE2B4DAB3E002DC334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7CF82E12B4DAB3E002DC334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7CF82E32B4DAB3E002DC334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,12 +60,12 @@
 			children = (
 				A7CF82D52B4DAB3D002DC334 /* AppDelegate.swift */,
 				A7CF82D72B4DAB3D002DC334 /* SceneDelegate.swift */,
-				A7CF82D92B4DAB3D002DC334 /* ViewController.swift */,
 				A7CF82DE2B4DAB3E002DC334 /* Assets.xcassets */,
 				A7CF82E02B4DAB3E002DC334 /* LaunchScreen.storyboard */,
 				A7CF82E32B4DAB3E002DC334 /* Info.plist */,
 				A7CF82E92B4DAB96002DC334 /* WebViewController.swift */,
 				A7CF82EB2B4DB26F002DC334 /* MenuViewController.swift */,
+				A75EEC5E2B4DF54C007DC9A2 /* MotionViewController.swift */,
 			);
 			path = EighthWallWebViewTest;
 			sourceTree = "<group>";
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CF82DA2B4DAB3D002DC334 /* ViewController.swift in Sources */,
 				A7CF82EC2B4DB26F002DC334 /* MenuViewController.swift in Sources */,
+				A75EEC5F2B4DF54C007DC9A2 /* MotionViewController.swift in Sources */,
 				A7CF82D62B4DAB3D002DC334 /* AppDelegate.swift in Sources */,
 				A7CF82D82B4DAB3D002DC334 /* SceneDelegate.swift in Sources */,
 				A7CF82EA2B4DAB96002DC334 /* WebViewController.swift in Sources */,

@@ -43,6 +43,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self?.window?.rootViewController = rootViewController
             self?.window?.makeKeyAndVisible()
         }
+
+        NotificationCenter.default.addObserver(forName: NSNotification.Name("ShowMotion"), object: nil, queue: .main) { [weak self] notification in
+            let rootViewController = MotionViewController()
+            self?.window?.rootViewController = rootViewController
+            self?.window?.makeKeyAndVisible()
+        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
