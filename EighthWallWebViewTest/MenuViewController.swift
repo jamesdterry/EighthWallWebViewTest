@@ -62,7 +62,7 @@ class MenuViewController: UIViewController {
     }
 
     @objc func buttonTappedHackerNews(sender: UIButton) {
-        let userInfo = ["url": "https://news.ycombinator.com"]
+        let userInfo = ["url": "https://retailxray.xyz/video2.html" /* "https://news.ycombinator.com" */]
         NotificationCenter.default.post(name: NSNotification.Name("ShowWebView"), object: nil, userInfo: userInfo)
     }
 

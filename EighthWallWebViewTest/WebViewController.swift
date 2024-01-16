@@ -25,12 +25,15 @@ class WebViewController: UIViewController {
 
     override func loadView() {
         let webConfiguration = WKWebViewConfiguration()
+        webConfiguration.allowsInlineMediaPlayback = true
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.translatesAutoresizingMaskIntoConstraints = false
         view = UIView()
         view.addSubview(webView)
 
         webView.uiDelegate = self
+        webView.scrollView.contentInsetAdjustmentBehavior = .never
+        webView.isInspectable = true
 
         NSLayoutConstraint.activate([
             webView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -68,6 +71,10 @@ class WebViewController: UIViewController {
                 webView.load(myRequest)
             }
         }
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
     @objc func buttonTappedMenu(sender: UIButton) {
